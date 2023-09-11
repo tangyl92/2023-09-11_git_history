@@ -9,3 +9,7 @@
         - this may open a terminal program called `less` that lets you scroll
             - use `q` to quit out of less
 
+-- `diff`: shows you the "difference" between your changes and the last known git state
+    - `diff --staged`: shows you the diff of the files in the staging area
+
+--  `restore --staged <FILE>` : unstages from the staging area
